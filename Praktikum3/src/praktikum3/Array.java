@@ -21,7 +21,7 @@ public class Array{
         for(counterOne = 0; counterOne < 3;counterOne++){
             System.out.print("{");
             for(counterTwo = 0; counterTwo < 3;counterTwo++){
-                System.out.print("{");
+                System.out.print("{ ");
                 for(counterThree = 0; counterThree < 3;counterThree++){
                     System.out.print(threeDimensionalArray[counterOne][counterTwo][counterThree]+" ");
                 }
