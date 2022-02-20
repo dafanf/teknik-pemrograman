@@ -2,14 +2,14 @@ package praktikum3;
 import java.util.Scanner;
 /**
  * @author  DAFA N.F
- * @version 1.0
+ * @version 1.1
  * @since   2022-02-18
  */
 public class Barricade {
     public static void main(String[] args){
         String platNum;
-        int modNum = 5;
-        long subtractingNum = 9999999;
+        final int modNum = 5;
+        final long subtractingNum = 9999999;
         long modulusResult;
         Scanner in = new Scanner(System.in);
         System.out.print("Please enter 4 car number plates : ");
