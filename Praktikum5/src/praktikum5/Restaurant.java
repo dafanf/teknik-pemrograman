@@ -45,12 +45,11 @@ public class Restaurant {
         System.out.println("========================================");
     }
     public void kurangStok(byte id, int jumlahMakan){
-        int stokAwal, stokSekarang;
+        int stokAwal;
         stokAwal = newMenu[id].getStok();
         newMenu[id].setStok(stokAwal-jumlahMakan);
     }
     public void beliMakanan(byte id, int jumlahMakanan){
-        int stokSekarang = 0;
         kurangStok(id,jumlahMakanan);
         textHeader();
         tampilMenuMakanan();
