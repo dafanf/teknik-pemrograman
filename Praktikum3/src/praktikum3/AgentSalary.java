@@ -9,7 +9,8 @@ import java.util.Scanner;
  */
 public class AgentSalary {
     public static void main(String[] args){
-        int basicSalary = 500000, totalSalary, itemPrice = 50000, itemSold;
+        final int basicSalary = 500000, itemPrice = 50000;
+        int totalSalary, itemSold;
         Scanner in = new Scanner(System.in);
         
         System.out.print("Please enter the number of items sold this month : ");

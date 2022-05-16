@@ -18,7 +18,6 @@ public class Barricade {
         modulusResult = Long.parseLong(platNum);
         modulusResult = modulusResult - subtractingNum;
         modulusResult = modulusResult % modNum;
-        System.out.println(modulusResult);
         if(modulusResult == 0){
             System.out.println("Stop");
         }

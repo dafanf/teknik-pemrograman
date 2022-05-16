@@ -16,9 +16,9 @@ public class Praktikum3 {
         int counter;
         
         Scanner in = new Scanner(System.in);
-        System.out.print("Please input the test string");
+        System.out.print("Please input the test string : ");
         testString = in.nextLine();
-        splitedStrings = testString.split("[-+*/=,.;:'\\s]");
+        splitedStrings = testString.split("[-+*/=,.;:'\\s@]");
         System.out.println(splitedStrings.length);
         for(counter = 0; counter < splitedStrings.length;counter++){
             System.out.println(splitedStrings[counter]);
